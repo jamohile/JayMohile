@@ -1,0 +1,247 @@
+body {
+	padding: 0px;
+	margin: 0px;
+	display: flex;
+	font-family: 'OrkneyBold';
+}
+
+.left_container {
+	width: 20%;
+	background-color: #ffffff;
+	border-right-style: solid;
+	border-right-width: 1px;
+	padding: 48px;
+	float: left;
+	box-shadow: 2px 0px 5px #222;
+	transition: width 0.2s;
+}
+
+.name_container {
+	width: 100%;
+}
+
+.profile_pic {
+	width: 100px;
+	height: 100px;
+	border-radius: 100px;
+	margin-bottom: 24px;
+}
+
+.name {
+	font-family: 'OrkneyBold';
+	font-size: 250%;
+	margin-bottom: 24px;
+}
+
+.info {
+	margin-bottom: 24px;
+}
+
+.info-item {
+	margin-bottom: 24dp;
+	font-family: 'OrkneyLight';
+	height: 20px;
+	line-height: 20px;
+	vertical-align: middle;
+}
+
+.info-icon {
+	height: 20px;
+}
+
+span {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.buttons {
+	
+}
+
+.button {
+	margin-top: 12px;
+	font-family: 'OrkneyBold';
+	display: inline-block;
+	border-style: solid;
+	border-width: 1px;
+	padding: 12px;
+	width: auto;
+	transition: color 0.5s, padding-right 0.5s, background-color 0.5s;
+}
+
+.button_clicked {
+	padding-right: 48px;
+	color: #ffffff;
+	cursor: pointer;
+	background: #000000;
+}
+
+.right_container {
+	height: 100%;
+	flex-grow: 1;
+	overflow-y: scroll;
+	background-image: url("../images/dark_embroidery.png");
+	background-repeat: repeat;
+}
+
+.page_banner {
+	width: 100%;
+	height: 100px;
+	overflow: hidden;
+	flex-grow: 1;
+	color: white;
+	text-align: center;
+	line-height: 100px;
+	flex-grow: 1;
+	overflow: hidden;
+	flex-grow: 1;
+	color: white;
+	text-align: center;
+	line-height: 100px;
+	background-color: #202E3F;
+	box-shadow: 0px 2px 5px #222;
+}
+
+.portfolio {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.portfolio_item {
+	border-radius: 10px;
+	margin: 24px;
+	width: 168px;
+	height: 168px;
+	text-align: center;
+	cursor: pointer;
+	background-color: white;
+	cursor: pointer;
+	box-shadow: 0px 1px 5px #222;
+}
+
+.portfolio_item_image {
+	width: 120px;
+	margin: 24px;
+	margin-top: 24px;
+	margin-bottom: 0px;
+	transition: width 0.2s, margin-top 0.6s;
+}
+
+.portfolio_item_name {
+	opacity: 0;
+	color: #999999;
+	text-align: center;
+	overflow: hidden;
+	height: 0%;
+	margin: 5%;
+	margin-bottom: 0%;
+	transition: opacity 0.5s, height 0.2s;
+	text-align: center;
+	transition: opacity 0.5s, height 0.2s;
+}
+
+.portfolio_item_information {
+	display: none;
+	font-family: 'OrkneyRegular';
+	width: 288px;
+	text-align: centre;
+	margin: 24px;
+	margin-top: 0px;
+	border-color: #999999;
+	border-top-style: solid;
+	border-top-width: 1px;
+}
+
+.portfolio_item_information_description {
+	padding: 12px;
+	color: #999999;
+}
+
+.portfolio_item_information_meta {
+	padding: 12px;
+}
+
+.resumé {
+	display: none;
+}
+
+.resume_content {
+	width: auto;
+	min-width: 600px;
+	background-color: white;
+	border-radius: 10px;
+	margin: 24px;
+	padding: 24px;
+	height: auto;
+	min-height: 80%;
+	height: auto;
+	margin: 24px;
+	display: flex;
+	height: auto;
+}
+
+.resume_content_column {
+	width: auto;
+}
+
+.resume_header {
+	color: #cc9900;
+	text-align: center;
+	font-family: 'OrkneyBold';
+	background-color: white;
+	border-radius: 10px;
+}
+
+.resume_content_list {
+	margin-top: 12px;
+	text-align: center;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	color: black;
+	width: 80%;
+}
+
+.resume_content_experience {
+	flex-grow: 1;
+}
+
+.resume_content_list_item {
+	margin: 24px;
+	text-align: left;
+}
+
+.resume_content_list_item_header {
+	display: flex;
+	flex-direction: column;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #999999;
+	border-bottom-style: solid;
+	flex-direction: column;
+}
+
+.resume_content_time {
+	color: #999999;
+	width: auto;
+	flex-grow: 1;
+	font-size: 80%;
+	font-family: "OrkneyRegular";
+}
+
+.resume_content_title {
+	flex-grow: 1;
+}
+
+.resume_content_description {
+	margin: 12px;
+	margin-left: 0px;
+	font-family: 'OrkneyRegular';
+}
+
+.resume_space {
+	width: 0px;
+	border-right-width: 0.5px;
+	border-right-style: solid;
+	border-color: #dddddd;
+}
