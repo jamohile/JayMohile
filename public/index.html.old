@@ -35,6 +35,7 @@
 	<div class="right_container">
 		<div class="page_banner">Portfolio</div>
 		<div class="portfolio">
+		
 			<div class="portfolio_item" id="Tarline">
 				<img class="portfolio_item_image" src="images/tarline_item.png">
 				<div class="portfolio_item_name">Tarline</div>
@@ -51,6 +52,7 @@
 					</div>
 				</div>
 			</div>
+			
 			<div class="portfolio_item" id="Neuros">
 				<img class="portfolio_item_image" src="images/neuros_item.png">
 				<div class="portfolio_item_name">Neuros</div>
