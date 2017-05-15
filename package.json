@@ -9,6 +9,7 @@
     "express": "3.2.6",
     "ejs": "*",
     "morgan" : "*",
-    "body-parser" : "*"
+    "body-parser" : "*",
+    "mongodb" : "*"
   }
 }
